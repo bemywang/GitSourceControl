@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36030A9D2C135735008F95C0 /* SecondScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36030A9C2C135735008F95C0 /* SecondScreenView.swift */; };
 		36BAB4522C12095700262762 /* GitSourceControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BAB4512C12095700262762 /* GitSourceControlApp.swift */; };
 		36BAB4542C12095700262762 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BAB4532C12095700262762 /* ContentView.swift */; };
 		36BAB4562C12095700262762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36BAB4552C12095700262762 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36030A9C2C135735008F95C0 /* SecondScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenView.swift; sourceTree = "<group>"; };
 		36BAB44E2C12095700262762 /* GitSourceControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitSourceControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36BAB4512C12095700262762 /* GitSourceControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitSourceControlApp.swift; sourceTree = "<group>"; };
 		36BAB4532C12095700262762 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				36BAB4512C12095700262762 /* GitSourceControlApp.swift */,
 				36BAB4532C12095700262762 /* ContentView.swift */,
+				36030A9C2C135735008F95C0 /* SecondScreenView.swift */,
 				36BAB4552C12095700262762 /* Assets.xcassets */,
 				36BAB4572C12095700262762 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36030A9D2C135735008F95C0 /* SecondScreenView.swift in Sources */,
 				36BAB4542C12095700262762 /* ContentView.swift in Sources */,
 				36BAB4522C12095700262762 /* GitSourceControlApp.swift in Sources */,
 			);

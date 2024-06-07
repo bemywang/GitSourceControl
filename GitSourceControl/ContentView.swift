@@ -14,6 +14,7 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .foregroundColor(.red)
             Text("LOVE LONDON")
+                .fontWeight(.bold)
         }
         .padding()
     }
