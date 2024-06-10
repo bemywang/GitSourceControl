@@ -17,6 +17,12 @@ struct ContentView: View {
                 .fontWeight(.bold)
         }
         .padding()
+        .background(
+            Circle()
+                .fill(.yellow)
+                .frame(width: 150, height: 150)
+                
+        )
     }
 }
 
