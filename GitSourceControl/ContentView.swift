@@ -12,7 +12,7 @@ struct ContentView: View {
         VStack {
             Image(systemName: "heart.fill")
                 .font(.largeTitle)
-                .foregroundColor(.red)
+                .foregroundColor(.black)
             Text("LOVE LONDON")
                 .fontWeight(.bold)
         }
