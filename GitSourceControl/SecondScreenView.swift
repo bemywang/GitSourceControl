@@ -16,7 +16,8 @@ struct SecondScreenView: View {
                 showAlert = true
             }
             .padding()
-            .background(Color.blue)
+            .font(.largeTitle)
+            .background(Color.red)
             .foregroundColor(.white)
             .cornerRadius(10)
         }
