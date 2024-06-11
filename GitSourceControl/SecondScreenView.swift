@@ -15,10 +15,14 @@ struct SecondScreenView: View {
             Button("Show Alert") {
                 showAlert = true
             }
+            .padding()
+            .background(Color.blue)
+            .foregroundColor(.white)
+            .cornerRadius(10)
         }
         .alert(isPresented: $showAlert) {
             Alert(
-                title: Text("Test"),
+                title: Text("Test🎉"),
                 message: Text("Function Testing"),
                 dismissButton: .default(Text("OK"))
             )
