@@ -20,6 +20,7 @@ struct SecondScreenView: View {
             .background(Color.red)
             .foregroundColor(.white)
             .cornerRadius(10)
+            .shadow(radius: 2)
         }
         .alert(isPresented: $showAlert) {
             Alert(
