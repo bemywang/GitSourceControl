@@ -12,7 +12,7 @@ struct SecondScreenView: View {
 
     var body: some View {
         VStack {
-            Button("Show Alert") {
+            Button("Show Alert!!") {
                 showAlert = true
             }
         }
