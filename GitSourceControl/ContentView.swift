@@ -21,6 +21,7 @@ struct ContentView: View {
             Circle()
                 .fill(.yellow)
                 .frame(width: 150, height: 150)
+                .shadow(radius: 5)
                 
         )
     }
