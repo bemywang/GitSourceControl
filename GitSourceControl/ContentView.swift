@@ -15,6 +15,7 @@ struct ContentView: View {
                 .foregroundColor(.black)
             Text("LOVE LONDON")
                 .fontWeight(.bold)
+                .foregroundColor(.indigo)
         }
         .padding()
         .background(
