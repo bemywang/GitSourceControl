@@ -19,9 +19,8 @@ struct ContentView: View {
         .padding()
         .background(
             Circle()
-                .fill(.cyan)
+                .fill(.indigo)
                 .frame(width: 150, height: 150)
-                .shadow(radius: 5)
                 
         )
     }
