@@ -12,13 +12,19 @@ struct SecondScreenView: View {
 
     var body: some View {
         VStack {
-            Button("Show Alert") {
+            Button("Show Alert!!") {
                 showAlert = true
             }
+            .padding()
+            .font(.largeTitle)
+            .background(Color.red)
+            .foregroundColor(.white)
+            .cornerRadius(10)
+            .shadow(radius: 2)
         }
         .alert(isPresented: $showAlert) {
             Alert(
-                title: Text("Test"),
+                title: Text("Test🎉"),
                 message: Text("Function Testing"),
                 dismissButton: .default(Text("OK"))
             )
