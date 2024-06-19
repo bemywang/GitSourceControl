@@ -9,7 +9,12 @@ import SwiftUI
 
 struct NotificationView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image(systemName: "bell.fill")
+                .foregroundColor(.red)
+            Text("Notification")
+        }
+        .font(.largeTitle)
     }
 }
 
